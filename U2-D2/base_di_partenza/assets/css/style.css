@@ -387,97 +387,28 @@ footer a {
   }
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:376px) {
 
  
 
-.brand {
-  position: relative;  
-  text-align: center; 
+h1 span {
+  position:relative;
+  margin-bottom: 0%;
 }
-
-
-.brand p {
-  margin: 10px 0; 
-  font-size: 24px; 
-}
-
-
 .baffo {
-  position: relative;
-  width: 50%; 
-  margin: 0 auto; 
+  position:absolute;
+  margin-right: 0;
+  margin-top: 0;
 }
-
-.baffo .sotto {
-  width: 100%; 
-  height: auto; 
-  display: block; 
-  margin-top: -20px; 
-  margin-left: 70px;
-}
-
-
-
-
-  .clearfix{
-    overflow: hidden;
-  }
-  .clearfix, .imgLeft {
-    float: left;
-    vertical-align: middle;
-    
-  }
-  .clearfix img {
-    height: 50px;  
-    vertical-align: middle;  
-}
-.clearfix p:first-of-type {
-  float: right;
-  margin: 0;  
-  vertical-align: middle;  
-}
-
-
-  .clearfix p:first-of-type{
-    margin-top: 0;
-  }
-  table{
-    clear: both;
-    margin-left: 0;
-  }
- .relative{
-  position: relative;
- }
- h2{
-  position: absolute;
-  
-
- }
- h2{
-  margin-bottom: 150px;
- }
-
- .fixed-buttons {
-  position: fixed;
-  bottom: 20px; 
-  right: 50%; 
-  transform: translateX(-50%); 
-  display:flex;
-  display: column; 
-  align-items: self-end;
-  gap: 15px; 
-}
-
-
-.btn {
-  background-color: rgba(255, 255, 255, 0.5); 
-  
-  border: 2px solid white; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  border-radius: 5px; 
+.clearfix img{
+  float:left
   
   
 }
+h2 {
+  clear: left;
+  position:absolute;
+  margin-top: -10%;
+}
+ 
 }
